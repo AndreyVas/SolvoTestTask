@@ -1,0 +1,469 @@
+
+1 - Set count of tasks
+2 - Set the percentage of task with type A
+3 - Show default values
+4 - Start test
+
+>>4
+Entered new task - [B|6|status:wait      |blocked:F]
+Processing start for task : [B|6|status:in process|blocked:F] in queue 0
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type:no|Size:0|tasks -- 
+num : 2|Type:no|Size:0|tasks -- 
+num : 3|Type:no|Size:0|tasks -- 
+num : 4|Type:no|Size:0|tasks -- 
+num : 5|Type:no|Size:0|tasks -- 
+num : 6|Type:no|Size:0|tasks -- 
+num : 7|Type:no|Size:0|tasks -- 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|8|status:wait      |blocked:F]
+Processing start for task : [B|8|status:in process|blocked:F] in queue 1
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type:no|Size:0|tasks -- 
+num : 3|Type:no|Size:0|tasks -- 
+num : 4|Type:no|Size:0|tasks -- 
+num : 5|Type:no|Size:0|tasks -- 
+num : 6|Type:no|Size:0|tasks -- 
+num : 7|Type:no|Size:0|tasks -- 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|2|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type:no|Size:0|tasks -- 
+num : 4|Type:no|Size:0|tasks -- 
+num : 5|Type:no|Size:0|tasks -- 
+num : 6|Type:no|Size:0|tasks -- 
+num : 7|Type:no|Size:0|tasks -- 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|1|status:wait      |blocked:F]
+Processing start for task : [B|1|status:in process|blocked:F] in queue 3
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type:no|Size:0|tasks -- 
+num : 5|Type:no|Size:0|tasks -- 
+num : 6|Type:no|Size:0|tasks -- 
+num : 7|Type:no|Size:0|tasks -- 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|5|status:wait      |blocked:F]
+Processing start for task : [B|5|status:in process|blocked:F] in queue 4
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type:no|Size:0|tasks -- 
+num : 6|Type:no|Size:0|tasks -- 
+num : 7|Type:no|Size:0|tasks -- 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|1|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type:no|Size:0|tasks -- 
+num : 7|Type:no|Size:0|tasks -- 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|2|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type:no|Size:0|tasks -- 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|1|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type:no|Size:0|tasks -- 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|5|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:1|tasks -- [B|6|status:in process|blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|4|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|6|status:in process|blocked:F] [B|4|status:wait      |blocked:F] 
+num : 1|Type: B|Size:1|tasks -- [B|8|status:in process|blocked:F] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|8|status:wait      |blocked:F]
+Processing start for task : [B|2|status:in process|blocked:F] in queue 2
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|6|status:in process|blocked:F] [B|4|status:wait      |blocked:F] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|8|status:wait      |blocked:T] 
+num : 2|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|7|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|6|status:in process|blocked:F] [B|4|status:wait      |blocked:F] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|8|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:1|tasks -- [B|1|status:in process|blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|4|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|6|status:in process|blocked:F] [B|4|status:wait      |blocked:F] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|8|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 4|Type: B|Size:1|tasks -- [B|5|status:in process|blocked:F] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|4|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|6|status:in process|blocked:F] [B|4|status:wait      |blocked:F] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|8|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 4|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 5|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|3|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|6|status:in process|blocked:F] [B|4|status:wait      |blocked:F] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|8|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 4|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|4|status:wait      |blocked:F]
+Processing end for task : [B|6|status:in process|blocked:F] in queue 0
+Processing start for task : [B|4|status:in process|blocked:F] in queue 0
+Processing end for task : [B|8|status:in process|blocked:F] in queue 1
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|8|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 4|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|7|status:wait      |blocked:F]
+Processing start for task : [B|8|status:in process|blocked:F] in queue 1
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 4|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:T] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|0|status:wait      |blocked:F]
+Processing end for task : [B|1|status:in process|blocked:F] in queue 3
+Processing end for task : [B|5|status:in process|blocked:F] in queue 4
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:1|tasks -- [B|4|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:F] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [B|0|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:F] 
+num : 9|Type:no|Size:0|tasks -- 
+-------------------------------------------------
+Entered new task - [A|5|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:1|tasks -- [B|2|status:wait      |blocked:T] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:F] 
+num : 9|Type: A|Size:1|tasks -- [A|5|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [B|9|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:1|tasks -- [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:F] 
+num : 9|Type: A|Size:1|tasks -- [A|5|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [B|1|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:1|tasks -- [B|5|status:wait      |blocked:F] 
+num : 9|Type: A|Size:1|tasks -- [A|5|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [B|6|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:2|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:wait      |blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:1|tasks -- [A|5|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [B|8|status:wait      |blocked:F]
+Processing start for task : [B|1|status:in process|blocked:F] in queue 5
+-------------------------------------------------Queues
+num : 0|Type: B|Size:3|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] [B|8|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:wait      |blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:1|tasks -- [A|5|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [A|9|status:wait      |blocked:F]
+Processing start for task : [B|5|status:in process|blocked:F] in queue 8
+-------------------------------------------------Queues
+num : 0|Type: B|Size:3|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] [B|8|status:wait      |blocked:T] 
+num : 1|Type: B|Size:2|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:2|tasks -- [A|5|status:wait      |blocked:T] [A|9|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [B|1|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:3|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] [B|8|status:wait      |blocked:T] 
+num : 1|Type: B|Size:3|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:2|tasks -- [A|5|status:wait      |blocked:T] [A|9|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [A|8|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:3|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] [B|8|status:wait      |blocked:T] 
+num : 1|Type: B|Size:3|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 2|Type: B|Size:2|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:3|tasks -- [A|5|status:wait      |blocked:T] [A|9|status:wait      |blocked:T] [A|8|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [B|8|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:3|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] [B|8|status:wait      |blocked:T] 
+num : 1|Type: B|Size:3|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 2|Type: B|Size:3|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] [B|8|status:wait      |blocked:T] 
+num : 3|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:3|tasks -- [A|5|status:wait      |blocked:T] [A|9|status:wait      |blocked:T] [A|8|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [B|8|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:3|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] [B|8|status:wait      |blocked:T] 
+num : 1|Type: B|Size:3|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 2|Type: B|Size:3|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] [B|8|status:wait      |blocked:T] 
+num : 3|Type: B|Size:3|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] [B|8|status:wait      |blocked:T] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:3|tasks -- [A|5|status:wait      |blocked:T] [A|9|status:wait      |blocked:T] [A|8|status:wait      |blocked:T] 
+-------------------------------------------------
+Entered new task - [A|2|status:wait      |blocked:F]
+-------------------------------------------------Queues
+num : 0|Type: B|Size:3|tasks -- [B|4|status:in process|blocked:F] [B|4|status:wait      |blocked:T] [B|8|status:wait      |blocked:T] 
+num : 1|Type: B|Size:3|tasks -- [B|8|status:in process|blocked:F] [B|7|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 2|Type: B|Size:3|tasks -- [B|2|status:in process|blocked:F] [B|7|status:wait      |blocked:F] [B|8|status:wait      |blocked:T] 
+num : 3|Type: B|Size:3|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:F] [B|8|status:wait      |blocked:T] 
+num : 4|Type: B|Size:2|tasks -- [B|4|status:wait      |blocked:T] [B|0|status:wait      |blocked:T] 
+num : 5|Type: B|Size:2|tasks -- [B|1|status:in process|blocked:F] [B|3|status:wait      |blocked:F] 
+num : 6|Type: B|Size:2|tasks -- [B|2|status:wait      |blocked:T] [B|9|status:wait      |blocked:F] 
+num : 7|Type: B|Size:2|tasks -- [B|1|status:wait      |blocked:T] [B|1|status:wait      |blocked:T] 
+num : 8|Type: B|Size:2|tasks -- [B|5|status:in process|blocked:F] [B|6|status:wait      |blocked:F] 
+num : 9|Type: A|Size:4|tasks -- [A|5|status:wait      |blocked:T] [A|9|status:wait      |blocked:T] [A|8|status:wait      |blocked:T] [A|2|status:wait      |blocked:T] 
+-------------------------------------------------
+Processing end for task : [B|2|status:in process|blocked:F] in queue 2
+Processing start for task : [B|7|status:in process|blocked:F] in queue 2
+Processing end for task : [B|4|status:in process|blocked:F] in queue 0
+Processing end for task : [B|8|status:in process|blocked:F] in queue 1
+Processing start for task : [B|4|status:in process|blocked:F] in queue 3
+Processing start for task : [B|2|status:in process|blocked:F] in queue 6
+Processing end for task : [B|1|status:in process|blocked:F] in queue 5
+Processing start for task : [B|3|status:in process|blocked:F] in queue 5
+Processing end for task : [B|5|status:in process|blocked:F] in queue 8
+Processing start for task : [B|6|status:in process|blocked:F] in queue 8
+Processing start for task : [B|1|status:in process|blocked:F] in queue 7
+Processing start for task : [A|5|status:in process|blocked:F] in queue 9
+Processing end for task : [B|7|status:in process|blocked:F] in queue 2
+Processing start for task : [B|7|status:in process|blocked:F] in queue 1
+Processing end for task : [B|4|status:in process|blocked:F] in queue 3
+Processing start for task : [B|0|status:in process|blocked:F] in queue 3
+Processing end for task : [B|2|status:in process|blocked:F] in queue 6
+Processing start for task : [B|9|status:in process|blocked:F] in queue 6
+Processing start for task : [B|4|status:in process|blocked:F] in queue 4
+Processing end for task : [B|3|status:in process|blocked:F] in queue 5
+***** END THREAD 5
+Processing end for task : [B|6|status:in process|blocked:F] in queue 8
+***** END THREAD 8
+Processing end for task : [B|1|status:in process|blocked:F] in queue 7
+Processing start for task : [B|1|status:in process|blocked:F] in queue 7
+Processing end for task : [A|5|status:in process|blocked:F] in queue 9
+Processing end for task : [B|7|status:in process|blocked:F] in queue 1
+Processing end for task : [B|0|status:in process|blocked:F] in queue 3
+Processing end for task : [B|9|status:in process|blocked:F] in queue 6
+Processing end for task : [B|4|status:in process|blocked:F] in queue 4
+***** END THREAD 6
+Processing start for task : [B|0|status:in process|blocked:F] in queue 4
+Processing start for task : [B|4|status:in process|blocked:F] in queue 0
+Processing end for task : [B|1|status:in process|blocked:F] in queue 7
+***** END THREAD 7
+Processing start for task : [A|9|status:in process|blocked:F] in queue 9
+Processing start for task : [B|1|status:in process|blocked:F] in queue 1
+Processing end for task : [B|0|status:in process|blocked:F] in queue 4
+***** END THREAD 4
+Processing end for task : [B|4|status:in process|blocked:F] in queue 0
+Processing start for task : [B|8|status:in process|blocked:F] in queue 0
+Processing end for task : [A|9|status:in process|blocked:F] in queue 9
+Processing end for task : [B|1|status:in process|blocked:F] in queue 1
+***** END THREAD 1
+Processing end for task : [B|8|status:in process|blocked:F] in queue 0
+***** END THREAD 0
+Processing start for task : [A|8|status:in process|blocked:F] in queue 9
+Processing end for task : [A|8|status:in process|blocked:F] in queue 9
+Processing start for task : [A|2|status:in process|blocked:F] in queue 9
+Processing start for task : [B|8|status:in process|blocked:F] in queue 2
+Processing end for task : [A|2|status:in process|blocked:F] in queue 9
+***** END THREAD 9
+Processing end for task : [B|8|status:in process|blocked:F] in queue 2
+***** END THREAD 2
+Processing start for task : [B|8|status:in process|blocked:F] in queue 3
+Processing end for task : [B|8|status:in process|blocked:F] in queue 3
+***** END THREAD 3
+The application has completed its work
+
