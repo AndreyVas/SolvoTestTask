@@ -1,5 +1,6 @@
 package solvo.testTask;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import org.junit.Test;
@@ -41,32 +42,47 @@ public class QueueManagerTest
 		
 		while(true)
 		{
-			menu();
-			inputVal = in.nextInt();
-
-			switch(inputVal)
+			try
 			{
-				case SET_COUNT:
-					System.out.println("Type number of the generated tasks and press Enter :");
-					System.out.print(">>");
-					tasksCount = in.nextInt();
-					break;
-					
-				case SET_PERSENTAGE:
-					System.out.println("Type the percentage of tasks of the type A and press Enter :");
-					System.out.print(">>");
-					aPercentage = in.nextInt();
-					break;
-				case SHOW_VALUES:
-					System.out.println("Tasks count = " + tasksCount);
-					System.out.println("Count of parameter X : " + parMax);
-					System.out.println("Persentage of tasks with A type : " + aPercentage);
-					System.out.println("Persentage of tasks with B type : " + (100 - aPercentage));
-					break;
-					
-				case START:
-					return true;
-					
+				menu();
+				inputVal = in.nextInt();
+
+				switch(inputVal)
+				{
+					case SET_COUNT:
+						System.out.println("Type number of the generated tasks and press Enter :");
+						System.out.print(">>");
+						tasksCount = in.nextInt();
+						break;
+						
+					case SET_PERSENTAGE:
+						System.out.println("Type the percentage of tasks of the type A and press Enter :");
+						System.out.print(">>");
+						aPercentage = in.nextInt();
+						break;
+					case SHOW_VALUES:
+						System.out.println("Tasks count = " + tasksCount);
+						System.out.println("Count of parameter X : " + parMax);
+						System.out.println("Persentage of tasks with A type : " + aPercentage);
+						System.out.println("Persentage of tasks with B type : " + (100 - aPercentage));
+						break;
+						
+					case START:
+						return true;
+						
+				}
+				
+				
+			}
+			catch(InputMismatchException e)
+			{
+				System.out.println("Incorrect symbol entered, pleas try again");
+				in = new Scanner(System.in);
+			}
+			catch(Exception e)
+			{
+				System.out.println("Unknown error please try again");
+				in = new Scanner(System.in);
 			}
 			
 			inputVal = 0;
